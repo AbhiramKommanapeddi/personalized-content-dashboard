@@ -9,7 +9,7 @@
 ## 🌐 Live Demo & Repository Links
 
 - **GitHub Repository**: [https://github.com/Abhiramkommanapeddi/personalized-content-dashboard](https://github.com/Abhiramkommanapeddi/personalized-content-dashboard)
-- **Live Vercel Deployment**: [https://personalized-content-dashboard-abhiramkommanapeddi.vercel.app](https://personalized-content-dashboard-abhiramkommanapeddi.vercel.app)
+- **Live Vercel Deployment**: https://personalized-content-dashboard-m7xfimqlb.vercel.app/
 
 ---
 
