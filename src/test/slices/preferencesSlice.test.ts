@@ -6,17 +6,18 @@ import preferencesReducer, {
   setAutoRefresh,
   resetPreferences,
 } from '@/store/slices/preferencesSlice';
-import { DEFAULT_CATEGORIES } from '@/types/preferences';
+import { DEFAULT_CATEGORIES, UserPreferences } from '@/types/preferences';
+import { ContentType } from '@/types/content';
 
 describe('preferencesSlice', () => {
-  const initialState = {
+  const initialState: UserPreferences = {
     categories: DEFAULT_CATEGORIES,
-    enabledTypes: ['news', 'recommendation', 'social'] as const,
-    theme: 'dark' as const,
-    viewMode: 'grid' as const,
+    enabledTypes: ['news', 'recommendation', 'social'],
+    theme: 'dark',
+    viewMode: 'grid',
     autoRefresh: true,
     refreshIntervalSeconds: 60,
-    language: 'en' as const,
+    language: 'en',
     apiKeys: {},
   };
 
